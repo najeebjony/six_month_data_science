@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Generation with OpenAI</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5">Generate Images with OpenAI</h1>
+        <form method="post" action="/generate-image">
+            <div class="form-group">
+                <label for="imagePrompt">Enter your prompt:</label>
+                <input type="text" class="form-control" id="imagePrompt" name="prompt" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Generate Image</button>
+        </form>
+        
+        <!-- Display generated image -->
+        {% if image_url %}
+            <div class="mt-5">
+                <h3>Generated Image:</h3>
+                <img src="{{ image_url }}" alt="Generated Image" class="img-fluid">
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>
+

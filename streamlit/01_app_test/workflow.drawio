@@ -1,0 +1,34 @@
+<mxfile host="65bd71144e">
+    <diagram id="bCoNnAXAngwVE-VkScQj" name="Page-1">
+        <mxGraphModel dx="1002" dy="323" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="app to learn the functions of streamlit" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;fontSize=20;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;fontStyle=1;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="90" width="380" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" style="edgeStyle=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=16;" edge="1" parent="1" source="4">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="170" y="410" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="190" y="380"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4" value="&lt;b&gt;Create conda/mamba enviroment streamlit_env&lt;br&gt;conda create -n streamlit_env&lt;br&gt;conda activate streamlit_env&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="220" width="360" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="endArrow=classic;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=16;" edge="1" parent="1" target="4">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="300" y="160" as="sourcePoint"/>
+                        <mxPoint x="300" y="160" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;InstalIation&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;b&gt;conda install python -y&lt;/b&gt;&lt;br&gt;&lt;b&gt;pip install streamlit,pandas&lt;/b&gt;&lt;br&gt;&lt;b&gt;seborn,numpy,matplotlib,plotly&lt;/b&gt;&lt;br&gt;&lt;b&gt;scipy,scikit-learn&lt;/b&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;sketch=0;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=20;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="410" width="410" height="140" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
