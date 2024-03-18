@@ -38,13 +38,13 @@ def list_docx_files(directory):
 # Function to generate a question from text using OpenAI's GPT
 def get_question_from_gpt(text):
     prompt = text[:4096]
-    response = openai.ChatCompletion.create(model="gpt-3.5-turbo-1106", messages=[{"role": "system", "content": "Extractive QA:"}, {"role": "user", "content": prompt}])
+    response = openai.ChatCompletion.create(model="gpt-3.5-turbo-16k", messages=[{"role": "system", "content": "Extractive QA:"}, {"role": "user", "content": prompt}])
     return response.choices[0].message['content'].strip()
 
 # Function to generate an answer to a question using OpenAI's GPT
 def get_answer_from_gpt(text, question):
     prompt = text[:4096] + "\n\nQuestion: " + question + "\nAnswer:"
-    response = openai.ChatCompletion.create(model="gpt-3.5-turbo-1106", messages=[{"role": "system", "content": "Extractive QA:"}, {"role": "user", "content": prompt}])
+    response = openai.ChatCompletion.create(model="gpt-3.5-turbo-16k", messages=[{"role": "system", "content": "Extractive QA:"}, {"role": "user", "content": prompt}])
     return response.choices[0].message['content'].strip()
 
 # Defining the main function of the Streamlit app
