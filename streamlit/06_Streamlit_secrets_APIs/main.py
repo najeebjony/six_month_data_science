@@ -1,7 +1,7 @@
 import streamlit as st 
 from langchain.llms import OpenAI 
 # set titlt with smybol of langchain 
-st.title("🦜🔗 Quickstart App LangChain")
+st.title("🦜🔗 Quickstart App LangChain Najeeb ullah")
 # openai_api_key = st.sidebar.text_input("OpenAI API Key")
 openai_api_key = st.secrets["OPENAI_API_KEY"]
 def generate_responese(input_text):
@@ -13,4 +13,4 @@ with st.form(key='my_form'):
     if not openai_api_key.startswith("sk-"):
         st.warning("Please enter your OpenAI API key", icon="🔑")
     if submit_button and openai_api_key.startswith("sk-"):
-        generate_responese(input_text) 
+        generate_responese(input_text)  

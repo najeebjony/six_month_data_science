@@ -3,7 +3,7 @@ from langchain.llms import OpenAI
 # set titlt with smybol of langchain 
 st.title("🦜🔗 Quickstart App LangChain")
 # openai_api_key = st.sidebar.text_input("OpenAI API Key")
-openai_api_key = "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"
+openai_api_key = "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"
 def generate_responese(input_text):
     llm = OpenAI(temperature=0.9, openai_api_key= openai_api_key)
     st.info(llm(input_text))
