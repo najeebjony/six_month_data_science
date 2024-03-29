@@ -1,7 +1,7 @@
 import streamlit as st 
 from langchain.llms import OpenAI 
 # set titlt with smybol of langchain 
-st.title("🦜🔗 Quickstart App LangChain Najeeb ullah")
+st.title("🦜🔗Quickstart App LangChain By Najeeb")
 # openai_api_key = st.sidebar.text_input("OpenAI API Key")
 openai_api_key = st.secrets["OPENAI_API_KEY"]
 def generate_responese(input_text):
