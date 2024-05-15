@@ -6,16 +6,17 @@ import requests
 from io import BytesIO
 
 # Set your OpenAI API key
-openai.api_key = "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"
+openai.api_key = "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"
 
 # Title of the app
-st.title("DALL-E 3 Image Generator")
+st.title("DALL-E 3 Image Generator Create BY Najeeb")
 
 # Function to generate images
 def generate_image(prompt, num_images=1):
     response = openai.Image.create(
         model="dall-e-3",
         prompt=prompt,
+       #  create a  4 images at one time
         n=num_images,  # number of pictures
         size="1024x1024"
     )

@@ -8,6 +8,7 @@ from langchain.chains import RetrievalQA
 import io
 import PyPDF2
 import docx
+import openai
 
 # Function to generate response based on the uploaded file and user query
 def generate_response(uploaded_file, openai_api_key, query_text):

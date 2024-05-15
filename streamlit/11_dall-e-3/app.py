@@ -5,7 +5,7 @@ from io import BytesIO
 
 
 # set your openai api key
-openai.api_key = "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"
+openai.api_key = "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"
 
 # title of app 
 st.title("@Najeebullah")
@@ -24,7 +24,7 @@ def downlaod_image(image_url):
         return BytesIO(response.content)
     
 def main():
-    st.title("DALL-E 3 Image Generator")
+    st.title("DALL-E 3 Image Generator By Najeeb")
     # st.write("This is a demo of OpenAI's DALL-E 3 model. It can generate images based on the prompt you provide.")
     
     prompt = st.text_area("Enter your prompt")
